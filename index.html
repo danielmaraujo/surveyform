@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            <div id="title-container">
+                <h1 id="title">Survey Form</h1>
+                <p id="description">Please answer this form so we can improve our services.</p><br>
+            </div>
+            <form id="form">
+                <div class="form-item">
+                    <label for="name" id="name-label">Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" class="text-box">
+                </div>
+
+                <div class="form-item">
+                    <label for="email" id="email-label">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" class="text-box">
+                </div>
+
+                <div class="form-item">
+                    <label for="number" id="number-label">Age</label>
+                    <input type="number" placeholder="Enter your age" min="18" max="100" class="text-box" id="age">
+                </div>
+
+                <div class="form-item">
+                    <p>How long have you been using our website?</p>
+                    <select name="timeusing" id="dropdown">
+                        <option value="6months">0 - 6 months</option>
+                        <option value="1year">6 months - 1 year</option>
+                        <option value="2years">1 year - 2 years</option>
+                        <option value="morethan2years">More than 2 years</option>
+                    </select>
+                </div>
+
+                <div class="form-item">
+                    <p>Would you recommend us to a friend?</p>
+
+                    <label>
+                        <input type="radio" name="recommend" value="yes" class="radio">
+                        Yes
+                    </label>
+
+                    <label>
+                        <input type="radio" name="recommend" value="maybe" class="radio">
+                        Maybe
+                    </label>
+
+                    <label>
+                        <input type="radio" name="recommend" value="no" class="radio">
+                        No
+                    </label>
+                </div>
+
+                <div class="form-item">
+                    <p>Where did you find us?</p>
+
+                    <label>
+                        <input type="checkbox" name="find" value="google" class="radio">
+                        Google
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="find" value="twitter" class="radio">
+                        Twitter
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="find" value="Facebook" class="radio">
+                        Facebook
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="find" value="other" class="radio">
+                        Other
+                    </label>
+                </div>
+
+                <div class="form-item">
+                    <p>Would you like to leave any comment or sugestion?</p>
+                    <textarea name="comment" cols="50" rows="10" class="text-box"></textarea>
+                </div>
+
+                <div class="form-item">
+                    <button type="submit">
+                        Submit
+                    </button>
+                </div>
+
+
+
+
+            </form>
+        </div>
+    </body>
+</html>
