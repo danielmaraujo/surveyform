@@ -79,7 +79,7 @@ select{
     background-color: white;
 }
 
-#age, select{
+#number, select{
     width: 40%;
 }
 
