@@ -1,2 +1,3 @@
 # surveyform
-Simple survey form built for freeCodeCamp's Responsive Web Design Certification
+A survey form
+(freeCodeCamp's Responsive Web Design Certification project)
